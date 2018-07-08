@@ -8,7 +8,7 @@ public class stars {
 	//nStar();
 	//numStar();
 	samenumberladder();
-		
+	System.out.println("Testing done");	
 		
 	}
 
