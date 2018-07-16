@@ -1,7 +1,11 @@
 package tictoc;
 
 
+import java.util.Iterator;
+import java.util.Set;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -59,14 +63,44 @@ public class basicCourse {
 				driver.findElement(By.xpath("//a[@onclick='gonext();']")).click();
 				
 				
+				//Click on Launch your window popup
+				driver.findElement(By.xpath("//a[contains(text(),'Launch Popup Window')]")).click();
+				
+			
+				Set<String> allwindows = driver.getWindowHandles();
+				Iterator<String> it = allwindows.iterator();
+				String parentwindow = it.next();
+				String childwindow = it.next();
+				
+				driver.switchTo().window(childwindow);
+				driver.findElement(By.xpath("//input[@id='name']")).sendKeys("Bijender");
+				driver.findElement(By.xpath("//input[@id='submit']")).click();
+				driver.switchTo().window(parentwindow);
+				driver.findElement(By.xpath("//a[@onclick='gonext();']")).click();
+				driver.findElement(By.xpath("//a[contains(text(),'Generate Token')]")).click();
+				String tokenloacton =   driver.findElement(By.xpath("//span[@id='token']")).getText();
+				String token=tokenloacton.substring(7, tokenloacton.length());
+				System.out.println(token);
+				Cookie name = new Cookie("nn", token);
+				driver.manage().addCookie(name);
+				driver.findElement(By.xpath("//a[@onclick='gonext();']")).click();
+				String finish = driver.findElement(By.xpath("//span[@class='finish']")).getText();
+				String Actual = "Obstacle Course is Complete!";
+				if (finish.equalsIgnoreCase(Actual))
+				{
+					System.out.println("TEST PASS : - YOU HAVE COMPLETED THE ASSESSMENT");
+					System.out.println("Congrats STUDENT");
+				}
+			
+				else 
+				{
+				System.out.println("TEST CASE FAILED");	
+				}
 				
 				
 				
-						
 				
 				
-				
+			
 	}
-
-	
 }
