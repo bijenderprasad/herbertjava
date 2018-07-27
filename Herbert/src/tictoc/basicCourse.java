@@ -78,6 +78,9 @@ public class basicCourse {
 				driver.switchTo().window(parentwindow);
 				driver.findElement(By.xpath("//a[@onclick='gonext();']")).click();
 				driver.findElement(By.xpath("//a[contains(text(),'Generate Token')]")).click();
+				
+				
+				// Adding cookies
 				String tokenloacton =   driver.findElement(By.xpath("//span[@id='token']")).getText();
 				String token=tokenloacton.substring(7, tokenloacton.length());
 				System.out.println(token);
