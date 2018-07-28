@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\bijen\AppData\Local\Temp\testng-eclipse-1519399238\testng-customsuite.xml</span>
+                    <span>C:\Users\bijen\AppData\Local\Temp\testng-eclipse-2082146349\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="BijenderTech.TestClass_Test" hash-for-method="TestCase1_LaunchApplication">TestCase1_LaunchApplication</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestClass.HomePage_Test" hash-for-method="Step01_LaunchApplication">Step01_LaunchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestClass.HomePage_Test" hash-for-method="Step02_verifyTextPresentInHomePage">Step02_verifyTextPresentInHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +125,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">BijenderTech.TestClass_Test</span>
+              <span class="class-name">TestClass.HomePage_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TestCase1_LaunchApplication">
-                  </a> <!-- TestCase1_LaunchApplication -->
-                  <span class="method-name">TestCase1_LaunchApplication</span>
+                  <a name="Step01_LaunchApplication">
+                  </a> <!-- Step01_LaunchApplication -->
+                  <span class="method-name">Step01_LaunchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step02_verifyTextPresentInHomePage">
+                  </a> <!-- Step02_verifyTextPresentInHomePage -->
+                  <span class="method-name">Step02_verifyTextPresentInHomePage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bijen\AppData\Local\Temp\testng-eclipse-1519399238\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\bijen\AppData\Local\Temp\testng-eclipse-2082146349\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +156,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;BijenderTech.TestClass_Test&quot;/&gt;
+      &lt;class name=&quot;TestClass.HomePage_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TestCase1_LaunchApplication')
-data.setCell(0, 2, 'BijenderTech.TestClass_Test')
-data.setCell(0, 3, 4432);
+data.setCell(0, 1, 'Step01_LaunchApplication')
+data.setCell(0, 2, 'TestClass.HomePage_Test')
+data.setCell(0, 3, 2604);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Step02_verifyTextPresentInHomePage')
+data.setCell(1, 2, 'TestClass.HomePage_Test')
+data.setCell(1, 3, 516);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -219,15 +235,35 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">BijenderTech.TestClass_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestClass.HomePage_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">startTestSession</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void TestClass.HomePage_Test.Step01_LaunchApplication())</span>
+                <span class="method-start">3213 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TestCase1_LaunchApplication</span>
-                <span class="method-start">5203 ms</span>
+                <span class="method-name">Step01_LaunchApplication</span>
+                <span class="method-start">3217 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupAfterTestMethod</span>
+                <span class="method-start">5831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void TestClass.HomePage_Test.Step02_verifyTextPresentInHomePage())</span>
+                <span class="method-start">5831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Step02_verifyTextPresentInHomePage</span>
+                <span class="method-start">5835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setupAfterTestMethod</span>
+                <span class="method-start">6355 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

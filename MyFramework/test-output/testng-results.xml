@@ -1,21 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9640" started-at="2018-07-27T19:10:59Z" finished-at="2018-07-27T19:11:09Z">
+  <suite name="Default suite" duration-ms="6367" started-at="2018-07-28T14:51:02Z" finished-at="2018-07-28T14:51:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9640" started-at="2018-07-27T19:10:59Z" finished-at="2018-07-27T19:11:09Z">
-      <class name="BijenderTech.TestClass_Test">
-        <test-method status="PASS" signature="startTestSession()[pri:0, instance:BijenderTech.TestClass_Test@1b604f19]" name="startTestSession" is-config="true" duration-ms="5148" started-at="2018-07-27T19:10:59Z" finished-at="2018-07-27T19:11:04Z">
+    <test name="Default test" duration-ms="6367" started-at="2018-07-28T14:51:02Z" finished-at="2018-07-28T14:51:09Z">
+      <class name="TestClass.HomePage_Test">
+        <test-method status="PASS" signature="startTestSession()[pri:0, instance:TestClass.HomePage_Test@29774679]" name="startTestSession" is-config="true" duration-ms="3205" started-at="2018-07-28T14:51:02Z" finished-at="2018-07-28T14:51:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestSession -->
-        <test-method status="PASS" signature="TestCase1_LaunchApplication()[pri:0, instance:BijenderTech.TestClass_Test@1b604f19]" name="TestCase1_LaunchApplication" duration-ms="4432" started-at="2018-07-27T19:11:04Z" finished-at="2018-07-27T19:11:09Z">
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:TestClass.HomePage_Test@29774679]" name="handleTestMethodName" is-config="true" duration-ms="4" started-at="2018-07-28T14:51:06Z" finished-at="2018-07-28T14:51:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestClass.HomePage_Test.Step01_LaunchApplication()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase1_LaunchApplication -->
-      </class> <!-- BijenderTech.TestClass_Test -->
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="Step01_LaunchApplication()[pri:0, instance:TestClass.HomePage_Test@29774679]" name="Step01_LaunchApplication" duration-ms="2604" started-at="2018-07-28T14:51:06Z" finished-at="2018-07-28T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step01_LaunchApplication -->
+        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:TestClass.HomePage_Test@29774679]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-07-28T14:51:08Z" finished-at="2018-07-28T14:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterTestMethod -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:TestClass.HomePage_Test@29774679]" name="handleTestMethodName" is-config="true" duration-ms="4" started-at="2018-07-28T14:51:08Z" finished-at="2018-07-28T14:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestClass.HomePage_Test.Step02_verifyTextPresentInHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="Step02_verifyTextPresentInHomePage()[pri:0, instance:TestClass.HomePage_Test@29774679]" name="Step02_verifyTextPresentInHomePage" duration-ms="516" started-at="2018-07-28T14:51:08Z" finished-at="2018-07-28T14:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step02_verifyTextPresentInHomePage -->
+        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:TestClass.HomePage_Test@29774679]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-07-28T14:51:09Z" finished-at="2018-07-28T14:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterTestMethod -->
+      </class> <!-- TestClass.HomePage_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

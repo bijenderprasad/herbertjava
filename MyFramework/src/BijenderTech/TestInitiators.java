@@ -3,17 +3,19 @@ package BijenderTech;
 public class TestInitiators {
 
 	
-	ActionClass ActionClass;
+	public HomePageKeyword HomePageKeyword;
+	public getobjects getobjects;
 
 	
 	public void initPage() {
-	ActionClass = new ActionClass();
+		HomePageKeyword = new HomePageKeyword();
+		getobjects = new getobjects();
 		
 		
 	}
 	
 
-	TestInitiators()
+	public TestInitiators()
 	{
 		initPage();
 	}

@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BijenderTech.TestClass_Test">
+      <class name="TestClass.HomePage_Test">
         <methods>
+          <include name="setupAfterTestMethod"/>
+          <include name="handleTestMethodName"/>
+          <include name="Step02_verifyTextPresentInHomePage"/>
           <include name="startTestSession"/>
-          <include name="TestCase1_LaunchApplication"/>
         </methods>
-      </class> <!-- BijenderTech.TestClass_Test -->
+      </class> <!-- TestClass.HomePage_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
