@@ -1,10 +1,9 @@
-package HomePageLocators;
+package locators;
 
 import org.openqa.selenium.By;
 
 
-public class HomePageLocators{
-
+public class HomePageLocators {
 
 	protected By Bannerlogo		 	= By.xpath("//img[@src='/images/banner2.gif']");
 	protected By usernamefield 		= By.xpath("//input[@name='userName']");
@@ -14,6 +13,7 @@ public class HomePageLocators{
 	protected By support 			= By.xpath("//a[contains(text(),'SUPPORT')]");
 	protected By contact 			= By.xpath("//a[contains(text(),'CONTACT')]");
 	protected By sign_inbutton 		= By.xpath("//input[@name='login']");
+	protected By firstname = By.xpath("//input[@name='firstName']");
 	
 	
 	

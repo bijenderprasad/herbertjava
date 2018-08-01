@@ -9,21 +9,17 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import BijenderTech.TestInitiators;
-import HomePageLocators.HomePageLocators;
+import keywords.TestInitiators;
+import locators.HomePageLocators;
 
 public class HomePage_Test extends HomePageLocators {
 
 	
 	TestInitiators test;
-	HomePage_Test HomePage_Test;
-	static WebDriver driver;
+	WebDriver driver;
 	String google, url, password,username;
 	
-
-	
-	
-	 void initVars() {	
+	private void initVars() {	
 		url = "http://newtours.demoaut.com/mercurywelcome.php";
 		username= "Bijender"; 
 	}
@@ -33,7 +29,6 @@ public class HomePage_Test extends HomePageLocators {
 	public void startTestSession()
 	{
 		test = new TestInitiators();
-		HomePage_Test = new HomePage_Test();
 		initVars();
 		
 	}
@@ -54,17 +49,10 @@ public class HomePage_Test extends HomePageLocators {
 	
 	@Test
 		public void Step01_LaunchApplication() {
-		test.getobjects.launchUrl(url);
-		System.out.println("User is on Web Home Page");
-		
+		System.out.println(url);
+		test.HomePageKeyword.launchUrl(url);
+
 	}
-	@Test
-	public void Step02_verifyTextPresentInHomePage() {
-	test.getobjects.IsElementDisplayed(Bannerlogo);
-	test.getobjects.filltext(usernamefield, username);
-	}
-		
-		
 
 
 

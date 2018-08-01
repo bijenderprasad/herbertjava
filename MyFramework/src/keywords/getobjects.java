@@ -1,4 +1,4 @@
-package BijenderTech;
+package keywords;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,23 +6,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
-public class getobjects{
-
+public class getobjects extends browserconfig {
+	
 	WebDriver driver;
 	
-	protected getobjects() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\selenium Drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
+	getobjects() {
+		
+	}
+	
+	getobjects(WebDriver driver){
+		browserconfig bc = new browserconfig();
+		this.driver = bc.setupbrowser(driver);
 	}
 
 	
-	public void launchUrl(String url) {
-		driver.get(url);
 
-	}
-
-	public WebElement element(By gmailLink) {
-		return driver.findElement(gmailLink);
+	public WebElement element(By token) {
+		return driver.findElement(token);
 	}
 
 	public String getData(By token) {
@@ -44,5 +44,11 @@ public class getobjects{
 }
 	public void filltext(By token, String value) {
 		driver.findElement(token).sendKeys(value);
+	}
+
+
+	public void hiturl(String url)
+	{
+		driver.get(url);
 	}
 }

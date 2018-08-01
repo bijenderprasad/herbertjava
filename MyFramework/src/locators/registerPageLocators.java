@@ -1,4 +1,4 @@
-package HomePageLocators;
+package locators;
 
 import org.openqa.selenium.By;
 
@@ -20,5 +20,6 @@ public class registerPageLocators {
 	protected By submit = By.xpath("//input[@name='register']");
 	protected By registerlogo = By.xpath("//img[@src='/images/masts/mast_register.gif']");
 	protected By footer = By.xpath("//div[@class='footer']");
+	protected By register 			= By.xpath("//a[contains(text(),'REGISTER')]");
 
 }
