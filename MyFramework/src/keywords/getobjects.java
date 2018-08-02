@@ -11,12 +11,12 @@ public class getobjects extends browserconfig {
 	WebDriver driver;
 	
 	getobjects() {
-		
+	
 	}
 	
-	getobjects(WebDriver driver){
-		browserconfig bc = new browserconfig();
-		this.driver = bc.setupbrowser(driver);
+	protected getobjects(WebDriver driver){
+		//browserconfig bc = new browserconfig();
+		this.driver = setupbrowser(driver);
 	}
 
 	

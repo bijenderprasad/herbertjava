@@ -2,13 +2,17 @@ package keywords;
 
 import org.openqa.selenium.WebDriver;
 
-public class TestInitiators {
+public class TestInitiators extends HomePageKeyword{
 
 	WebDriver driver;
 	public HomePageKeyword HomePageKeyword;
 	public RegisterPageKeywords RegisterPageKeywords;
 	
-
+	public TestInitiators()
+	{
+		this.driver= setupbrowser(driver);
+		initPage();
+		}
 
 	
 	public void initPage() {
@@ -19,11 +23,7 @@ public class TestInitiators {
 	}
 	
 
-	public TestInitiators()
-	{
-		initPage();
 
-	}
 	
 	
 }

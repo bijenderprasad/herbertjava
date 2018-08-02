@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47" started-at="2018-08-01T18:20:57Z" finished-at="2018-08-01T18:20:57Z">
+  <suite name="Default suite" duration-ms="49" started-at="2018-08-02T18:37:19Z" finished-at="2018-08-02T18:37:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47" started-at="2018-08-01T18:20:57Z" finished-at="2018-08-01T18:20:57Z">
-      <class name="TestClass.RegisterPageTest">
-        <test-method status="PASS" signature="startTestSession()[pri:0, instance:TestClass.RegisterPageTest@29774679]" name="startTestSession" is-config="true" duration-ms="16" started-at="2018-08-01T18:20:57Z" finished-at="2018-08-01T18:20:57Z">
+    <test name="Default test" duration-ms="49" started-at="2018-08-02T18:37:19Z" finished-at="2018-08-02T18:37:19Z">
+      <class name="TestClass.HomePage_Test">
+        <test-method status="PASS" signature="startTestSession()[pri:0, instance:TestClass.HomePage_Test@6be968ce]" name="startTestSession" is-config="true" duration-ms="16" started-at="2018-08-02T18:37:19Z" finished-at="2018-08-02T18:37:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestSession -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:TestClass.RegisterPageTest@29774679]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-01T18:20:57Z" finished-at="2018-08-01T18:20:57Z">
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:TestClass.HomePage_Test@6be968ce]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-02T18:37:19Z" finished-at="2018-08-02T18:37:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void TestClass.RegisterPageTest.Step01_LaunchApplication()]]>
+                <![CDATA[public void TestClass.HomePage_Test.Step01_LaunchApplication()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleTestMethodName -->
-        <test-method status="FAIL" signature="moveToRegisterPage()[pri:0, instance:TestClass.RegisterPageTest@29774679]" name="moveToRegisterPage" duration-ms="0" started-at="2018-08-01T18:20:57Z" depends-on-methods="TestClass.RegisterPageTest.Step01_LaunchApplication" finished-at="2018-08-01T18:20:57Z">
+        <test-method status="FAIL" signature="Step01_LaunchApplication()[pri:0, instance:TestClass.HomePage_Test@6be968ce]" name="Step01_LaunchApplication" duration-ms="18" started-at="2018-08-02T18:37:19Z" finished-at="2018-08-02T18:37:19Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at keywords.getobjects.element(getobjects.java:25)
-at keywords.HomePageKeyword.clickonRegisterPage(HomePageKeyword.java:25)
-at TestClass.RegisterPageTest.moveToRegisterPage(RegisterPageTest.java:56)
+at TestClass.HomePage_Test.Step01_LaunchApplication(HomePage_Test.java:49)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -59,31 +57,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- moveToRegisterPage -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:TestClass.RegisterPageTest@29774679]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-01T18:20:57Z" finished-at="2018-08-01T18:20:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:TestClass.RegisterPageTest@29774679]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-01T18:20:57Z" finished-at="2018-08-01T18:20:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="Step01_LaunchApplication()[pri:0, instance:TestClass.RegisterPageTest@29774679]" name="Step01_LaunchApplication" duration-ms="0" started-at="2018-08-01T18:20:57Z" finished-at="2018-08-01T18:20:57Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- Step01_LaunchApplication -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:TestClass.RegisterPageTest@29774679]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-01T18:20:57Z" finished-at="2018-08-01T18:20:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void TestClass.RegisterPageTest.moveToRegisterPage()]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:TestClass.HomePage_Test@6be968ce]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-02T18:37:19Z" finished-at="2018-08-02T18:37:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-      </class> <!-- TestClass.RegisterPageTest -->
+        </test-method> <!-- setupAfterTestMethod -->
+      </class> <!-- TestClass.HomePage_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

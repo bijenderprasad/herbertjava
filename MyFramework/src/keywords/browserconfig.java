@@ -7,7 +7,7 @@ public class browserconfig {
 	
 	
 	
-	public WebDriver setupbrowser(WebDriver driver) {
+	public static WebDriver setupbrowser(WebDriver driver) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\selenium Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		return driver;
@@ -15,16 +15,7 @@ public class browserconfig {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 /*	
 	public browserconfig(WebDriver driver)
 	{

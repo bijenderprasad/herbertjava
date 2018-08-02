@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class RegisterPageKeywords extends getobjects{
-	static WebDriver driver;
+	WebDriver driver;
 	
 	public RegisterPageKeywords () {
-		super();
+		this.driver= super.driver;
 	}
 
 	public void fillFirstName(By token, String value)

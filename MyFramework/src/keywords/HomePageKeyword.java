@@ -6,16 +6,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class HomePageKeyword extends getobjects{
-	
+	WebDriver driver;
 	
 	public HomePageKeyword() {
-		super();
+		this.driver=super.driver;
 	}
 
 
 	
 	public void launchUrl(String url) {
-	hiturl(url);
+	driver.get(url);
 
 	}
 	

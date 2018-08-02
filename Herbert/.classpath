@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="F:/Selenium/Selenium zip/libs/okhttp-3.10.0.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/Selenium zip/libs/okio-1.14.1.jar"/>
 	<classpathentry kind="lib" path="F:/Selenium/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

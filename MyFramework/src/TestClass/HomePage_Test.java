@@ -12,10 +12,10 @@ import org.testng.annotations.Test;
 import keywords.TestInitiators;
 import locators.HomePageLocators;
 
-public class HomePage_Test extends HomePageLocators {
+public class HomePage_Test extends TestInitiators {
 
 	
-	TestInitiators test;
+	TestInitiators test = new TestInitiators();
 	WebDriver driver;
 	String google, url, password,username;
 	
@@ -26,33 +26,28 @@ public class HomePage_Test extends HomePageLocators {
 	
 								
 	@BeforeClass
-	public void startTestSession()
-	{
-		test = new TestInitiators();
+	public void startTestSession() {
 		initVars();
-		
-	}
+		}
 	
 	@BeforeMethod
 	public void handleTestMethodName(Method method)
 	{
 		test.HomePageKeyword.stepStartMessage(method.getName());
-	}
+		}
 	
 	@AfterMethod
 	
 	public void setupAfterTestMethod()
 	{
 		test.HomePageKeyword.aftermethodsetup();
-		
-	}
+		}
 	
 	@Test
 		public void Step01_LaunchApplication() {
 		System.out.println(url);
-		test.HomePageKeyword.launchUrl(url);
-
-	}
+		driver.get(url);
+		}
 
 
 
