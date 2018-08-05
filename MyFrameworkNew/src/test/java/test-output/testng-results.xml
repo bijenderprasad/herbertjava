@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8411" started-at="2018-08-03T05:11:48Z" finished-at="2018-08-03T05:11:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8411" started-at="2018-08-03T05:11:48Z" finished-at="2018-08-03T05:11:57Z">
+      <class name="arrays.registerTestClass">
+        <test-method status="PASS" signature="navigatetohomepage()[pri:0, instance:arrays.registerTestClass@88a337]" name="navigatetohomepage" duration-ms="6161" started-at="2018-08-03T05:11:48Z" finished-at="2018-08-03T05:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetohomepage -->
+        <test-method status="PASS" signature="navigateToRegisterPage()[pri:0, instance:arrays.registerTestClass@88a337]" name="navigateToRegisterPage" duration-ms="1982" started-at="2018-08-03T05:11:55Z" depends-on-methods="arrays.registerTestClass.navigatetohomepage" finished-at="2018-08-03T05:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegisterPage -->
+        <test-method status="PASS" signature="enterfirstname()[pri:0, instance:arrays.registerTestClass@88a337]" name="enterfirstname" duration-ms="192" started-at="2018-08-03T05:11:57Z" depends-on-methods="arrays.registerTestClass.navigateToRegisterPage" finished-at="2018-08-03T05:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterfirstname -->
+      </class> <!-- arrays.registerTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

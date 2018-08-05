@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32" started-at="2018-08-02T18:28:02Z" finished-at="2018-08-02T18:28:02Z">
+  <suite name="Default suite" duration-ms="4023" started-at="2018-08-04T16:31:57Z" finished-at="2018-08-04T16:32:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32" started-at="2018-08-02T18:28:02Z" finished-at="2018-08-02T18:28:02Z">
-      <class name="learn.class4">
-        <test-method status="PASS" signature="run()[pri:0, instance:learn.class4@56f4468b]" name="run" duration-ms="16" started-at="2018-08-02T18:28:02Z" finished-at="2018-08-02T18:28:02Z">
+    <test name="Default test" duration-ms="4023" started-at="2018-08-04T16:31:57Z" finished-at="2018-08-04T16:32:01Z">
+      <class name="arrays.registerTestClass">
+        <test-method status="PASS" signature="navigatetohomepage()[pri:0, instance:arrays.registerTestClass@7db12bb6]" name="navigatetohomepage" duration-ms="2085" started-at="2018-08-04T16:31:57Z" finished-at="2018-08-04T16:32:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- run -->
-      </class> <!-- learn.class4 -->
+        </test-method> <!-- navigatetohomepage -->
+        <test-method status="PASS" signature="navigateToRegisterPage()[pri:0, instance:arrays.registerTestClass@7db12bb6]" name="navigateToRegisterPage" duration-ms="1634" started-at="2018-08-04T16:32:00Z" depends-on-methods="arrays.registerTestClass.navigatetohomepage" finished-at="2018-08-04T16:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegisterPage -->
+        <test-method status="PASS" signature="enterfirstname()[pri:0, instance:arrays.registerTestClass@7db12bb6]" name="enterfirstname" duration-ms="258" started-at="2018-08-04T16:32:01Z" depends-on-methods="arrays.registerTestClass.navigateToRegisterPage" finished-at="2018-08-04T16:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterfirstname -->
+      </class> <!-- arrays.registerTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
