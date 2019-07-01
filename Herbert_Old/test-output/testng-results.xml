@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4855" started-at="2018-08-04T18:02:13Z" finished-at="2018-08-04T18:02:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4855" started-at="2018-08-04T18:02:13Z" finished-at="2018-08-04T18:02:18Z">
+      <class name="backup.registerTestClass">
+        <test-method status="PASS" signature="navigatetohomepage()[pri:0, instance:backup.registerTestClass@272113c4]" name="navigatetohomepage" duration-ms="3046" started-at="2018-08-04T18:02:13Z" finished-at="2018-08-04T18:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetohomepage -->
+        <test-method status="PASS" signature="navigateToRegisterPage()[pri:0, instance:backup.registerTestClass@272113c4]" name="navigateToRegisterPage" duration-ms="1462" started-at="2018-08-04T18:02:16Z" depends-on-methods="backup.registerTestClass.navigatetohomepage" finished-at="2018-08-04T18:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegisterPage -->
+        <test-method status="PASS" signature="enterfirstname()[pri:0, instance:backup.registerTestClass@272113c4]" name="enterfirstname" duration-ms="303" started-at="2018-08-04T18:02:18Z" depends-on-methods="backup.registerTestClass.navigateToRegisterPage" finished-at="2018-08-04T18:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterfirstname -->
+      </class> <!-- backup.registerTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
