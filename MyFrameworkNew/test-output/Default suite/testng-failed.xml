@@ -3,20 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mercuryWelcomeTest.registerPageTest">
+      <class name="mercuryWelcomeTest.homePageTest">
         <methods>
-          <include name="enterlastname"/>
-          <include name="navigateToRegisterPage"/>
-          <include name="enterfirstname"/>
-          <include name="handleTestMethodName"/>
-          <include name="enterAddress"/>
-          <include name="enterPhoneNumberAndEmail"/>
-          <include name="enterLogincredentials"/>
-          <include name="navigatetohomepage"/>
-          <include name="registerCOnfirmation"/>
-          <include name="setupAfterTestMethod"/>
+          <include name="testMethod1"/>
         </methods>
-      </class> <!-- mercuryWelcomeTest.registerPageTest -->
+      </class> <!-- mercuryWelcomeTest.homePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

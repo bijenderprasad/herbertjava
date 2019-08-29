@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import mercuryWelcomegetPage.getPage;
+import mercuryWelcomegetPage.GetPage;
 
 
-public class registerPageActionClass extends getPage{
+public class registerPageActionClass extends GetPage{
 
 	
 	public registerPageActionClass(WebDriver driver) {

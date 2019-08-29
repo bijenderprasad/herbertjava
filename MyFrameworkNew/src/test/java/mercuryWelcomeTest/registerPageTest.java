@@ -4,6 +4,7 @@ package mercuryWelcomeTest;
 import java.lang.reflect.Method;
 
 import org.openqa.selenium.By;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -51,7 +52,8 @@ public class registerPageTest {
 
 	@AfterMethod
 	public void setupAfterTestMethod() {
-		test.homePageActionClass.aftermethodsetup();
+//		test.homePageActionClass.aftermethodsetup();
+		
 	}
 
 	

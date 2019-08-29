@@ -1,165 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20787" started-at="2018-08-05T14:10:55Z" finished-at="2018-08-05T14:11:16Z">
+  <suite name="Default suite" duration-ms="10212" started-at="2019-08-29T08:50:56Z" finished-at="2019-08-29T08:51:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20787" started-at="2018-08-05T14:10:55Z" finished-at="2018-08-05T14:11:16Z">
-      <class name="mercuryWelcomeTest.registerPageTest">
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="handleTestMethodName" is-config="true" duration-ms="32" started-at="2018-08-05T14:10:55Z" finished-at="2018-08-05T14:10:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void mercuryWelcomeTest.registerPageTest.navigatetohomepage()]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="10212" started-at="2019-08-29T08:50:56Z" finished-at="2019-08-29T08:51:06Z">
+      <class name="mercuryWelcomeTest.homePageTest">
+        <test-method status="PASS" signature="testrunSetup()[pri:0, instance:mercuryWelcomeTest.homePageTest@60bd273d]" name="testrunSetup" is-config="true" duration-ms="1482" started-at="2019-08-29T08:50:54Z" finished-at="2019-08-29T08:50:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="navigatetohomepage()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="navigatetohomepage" duration-ms="3492" started-at="2018-08-05T14:10:55Z" finished-at="2018-08-05T14:10:59Z">
+        </test-method> <!-- testrunSetup -->
+        <test-method status="PASS" signature="navigatetohomepage()[pri:0, instance:mercuryWelcomeTest.homePageTest@60bd273d]" name="navigatetohomepage" duration-ms="3143" started-at="2019-08-29T08:50:56Z" finished-at="2019-08-29T08:50:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigatetohomepage -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-05T14:10:59Z" finished-at="2018-08-05T14:10:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-05T14:10:59Z" finished-at="2018-08-05T14:10:59Z">
+        <test-method status="PASS" signature="onFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.homePageTest@60bd273d]" name="onFailure" is-config="true" duration-ms="2189" started-at="2019-08-29T08:50:59Z" finished-at="2019-08-29T08:51:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void mercuryWelcomeTest.registerPageTest.navigateToRegisterPage()]]>
+                <![CDATA[[TestResult name=navigatetohomepage status=SUCCESS method=homePageTest.navigatetohomepage()[pri:0, instance:mercuryWelcomeTest.homePageTest@60bd273d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void mercuryWelcomeTest.homePageTest.navigatetohomepage() throws java.io.IOException,org.json.simple.parser.ParseException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="navigateToRegisterPage()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="navigateToRegisterPage" duration-ms="1225" started-at="2018-08-05T14:10:59Z" depends-on-methods="mercuryWelcomeTest.registerPageTest.navigatetohomepage" finished-at="2018-08-05T14:11:00Z">
+        </test-method> <!-- onFailure -->
+        <test-method status="PASS" signature="navigatetohomepage1()[pri:0, instance:mercuryWelcomeTest.homePageTest@60bd273d]" name="navigatetohomepage1" duration-ms="229" started-at="2019-08-29T08:51:01Z" depends-on-methods="mercuryWelcomeTest.homePageTest.navigatetohomepage" finished-at="2019-08-29T08:51:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToRegisterPage -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="handleTestMethodName" is-config="true" duration-ms="2" started-at="2018-08-05T14:11:00Z" finished-at="2018-08-05T14:11:00Z">
+        </test-method> <!-- navigatetohomepage1 -->
+        <test-method status="PASS" signature="onFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.homePageTest@60bd273d]" name="onFailure" is-config="true" duration-ms="4611" started-at="2019-08-29T08:51:02Z" finished-at="2019-08-29T08:51:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void mercuryWelcomeTest.registerPageTest.enterfirstname()]]>
+                <![CDATA[[TestResult name=navigatetohomepage1 status=SUCCESS method=homePageTest.navigatetohomepage1()[pri:0, instance:mercuryWelcomeTest.homePageTest@60bd273d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void mercuryWelcomeTest.homePageTest.navigatetohomepage1()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:00Z" finished-at="2018-08-05T14:11:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="enterfirstname()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="enterfirstname" duration-ms="130" started-at="2018-08-05T14:11:00Z" depends-on-methods="mercuryWelcomeTest.registerPageTest.navigateToRegisterPage" finished-at="2018-08-05T14:11:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterfirstname -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:00Z" finished-at="2018-08-05T14:11:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void mercuryWelcomeTest.registerPageTest.enterlastname()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:00Z" finished-at="2018-08-05T14:11:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="enterlastname()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="enterlastname" duration-ms="88" started-at="2018-08-05T14:11:00Z" depends-on-methods="mercuryWelcomeTest.registerPageTest.enterfirstname" finished-at="2018-08-05T14:11:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterlastname -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:00Z" finished-at="2018-08-05T14:11:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:00Z" finished-at="2018-08-05T14:11:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void mercuryWelcomeTest.registerPageTest.enterPhoneNumberAndEmail()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="enterPhoneNumberAndEmail()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="enterPhoneNumberAndEmail" duration-ms="265" started-at="2018-08-05T14:11:00Z" depends-on-methods="mercuryWelcomeTest.registerPageTest.enterlastname" finished-at="2018-08-05T14:11:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterPhoneNumberAndEmail -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:00Z" finished-at="2018-08-05T14:11:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="enterAddress()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="enterAddress" duration-ms="543" started-at="2018-08-05T14:11:00Z" depends-on-methods="mercuryWelcomeTest.registerPageTest.enterPhoneNumberAndEmail" finished-at="2018-08-05T14:11:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterAddress -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:00Z" finished-at="2018-08-05T14:11:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void mercuryWelcomeTest.registerPageTest.enterAddress()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:01Z" finished-at="2018-08-05T14:11:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:01Z" finished-at="2018-08-05T14:11:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void mercuryWelcomeTest.registerPageTest.enterLogincredentials()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="enterLogincredentials()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="enterLogincredentials" duration-ms="14809" started-at="2018-08-05T14:11:01Z" depends-on-methods="mercuryWelcomeTest.registerPageTest.enterAddress" finished-at="2018-08-05T14:11:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterLogincredentials -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:16Z" finished-at="2018-08-05T14:11:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:16Z" finished-at="2018-08-05T14:11:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void mercuryWelcomeTest.registerPageTest.registerCOnfirmation()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleTestMethodName -->
-        <test-method status="PASS" signature="registerCOnfirmation()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="registerCOnfirmation" duration-ms="119" started-at="2018-08-05T14:11:16Z" depends-on-methods="mercuryWelcomeTest.registerPageTest.enterLogincredentials" finished-at="2018-08-05T14:11:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerCOnfirmation -->
-        <test-method status="PASS" signature="setupAfterTestMethod()[pri:0, instance:mercuryWelcomeTest.registerPageTest@54a7079e]" name="setupAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-08-05T14:11:16Z" finished-at="2018-08-05T14:11:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAfterTestMethod -->
-      </class> <!-- mercuryWelcomeTest.registerPageTest -->
+        </test-method> <!-- onFailure -->
+      </class> <!-- mercuryWelcomeTest.homePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
